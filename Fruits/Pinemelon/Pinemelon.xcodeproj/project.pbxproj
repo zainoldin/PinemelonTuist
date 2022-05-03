@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BE0AF31C3F35C4E2802B09E /* MelonKitResources.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = E75B49A0D40CF30078233EAD /* MelonKitResources.bundle */; platformFilter = ios; };
+		4BBAA46F6572191FC76676E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6713A5F82EA80DF779D959 /* Main.storyboard */; };
+		5DA0CDD59210AB1D854D7332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F85576DAC6BCF70C1F85F85 /* Assets.xcassets */; };
+		5E7D440710B97F3ECFA4F148 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B0D3F8F138D33BAF85011D /* AppDelegate.swift */; };
+		683F2418F427AC17F0C6B1CA /* MelonKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E75B49A0D40CF30078233EAD /* MelonKitResources.bundle */; };
+		79C2B33225957DF6398992FA /* Bundle+Pinemelon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2542D82620E033D48DF4365E /* Bundle+Pinemelon.swift */; };
+		99F959311A8C7AEC9CCBFF7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D3239F2C9DE173B4B2D7BB /* LaunchScreen.storyboard */; };
+		B7D8D9609F7DC3C3DB73C114 /* Assets+Pinemelon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642D134BA269C4A01C983066 /* Assets+Pinemelon.swift */; };
+		BE445CB3A3AF9620573C2842 /* MelonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B245AF6149C1E834C947A4C5 /* MelonKit.framework */; platformFilter = ios; };
+		D1BFA95AE0B917C82145EC1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACFE15F3A38CE6E7DC04C09 /* ViewController.swift */; };
+		DC10ECCFC1704616699A60B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1EA097D178BAC0253CCD41 /* SceneDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		56AA99E7449A1F9187D03A74 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACCEA73573FCC0BD12A737B3 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				1BE0AF31C3F35C4E2802B09E /* MelonKitResources.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2542D82620E033D48DF4365E /* Bundle+Pinemelon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Pinemelon.swift"; sourceTree = "<group>"; };
+		2C1EA097D178BAC0253CCD41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		39E8EBC146F0107FFAED242E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		642D134BA269C4A01C983066 /* Assets+Pinemelon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assets+Pinemelon.swift"; sourceTree = "<group>"; };
+		7F85576DAC6BCF70C1F85F85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B245AF6149C1E834C947A4C5 /* MelonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MelonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B0D3F8F138D33BAF85011D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E75B49A0D40CF30078233EAD /* MelonKitResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelonKitResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AA7A66DC29A7502CA326ED /* Pinemelon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinemelon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACFE15F3A38CE6E7DC04C09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F87CEF3E49A7C407E2BD1B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FBF49F6981CB2F204C377FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F44E3A6797BC8944A7119CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE445CB3A3AF9620573C2842 /* MelonKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EEA507BAB614CFBE2443518 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				642D134BA269C4A01C983066 /* Assets+Pinemelon.swift */,
+				2542D82620E033D48DF4365E /* Bundle+Pinemelon.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		55B75496236BE6CFA92AD793 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BF0A55DBA377CE6A15D322E /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				0EEA507BAB614CFBE2443518 /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		7786CB7DEADE6A299FAD5484 = {
+			isa = PBXGroup;
+			children = (
+				A4ECFD3B406176339A93C85D /* Project */,
+				55B75496236BE6CFA92AD793 /* Frameworks */,
+				A522AC4BA784F3667B981C15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4ECFD3B406176339A93C85D /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0A55DBA377CE6A15D322E /* Derived */,
+				F1B930FDA9749E9060D19FE6 /* Resources */,
+				D26FCBCCAFAE63C651D246BF /* Sources */,
+				F87CEF3E49A7C407E2BD1B24 /* Info.plist */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		A522AC4BA784F3667B981C15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B245AF6149C1E834C947A4C5 /* MelonKit.framework */,
+				E75B49A0D40CF30078233EAD /* MelonKitResources.bundle */,
+				E8AA7A66DC29A7502CA326ED /* Pinemelon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D26FCBCCAFAE63C651D246BF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E3B0D3F8F138D33BAF85011D /* AppDelegate.swift */,
+				2C1EA097D178BAC0253CCD41 /* SceneDelegate.swift */,
+				EACFE15F3A38CE6E7DC04C09 /* ViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F1B930FDA9749E9060D19FE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				66D3239F2C9DE173B4B2D7BB /* LaunchScreen.storyboard */,
+				9D6713A5F82EA80DF779D959 /* Main.storyboard */,
+				7F85576DAC6BCF70C1F85F85 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E69A448F6E0793EAAEBD0E5 /* Pinemelon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E96BC46BEC83E72CDA6E71 /* Build configuration list for PBXNativeTarget "Pinemelon" */;
+			buildPhases = (
+				700B614D4CEEF624BA284716 /* Sources */,
+				F7A2A58B5684CFC3751FAAE1 /* Resources */,
+				56AA99E7449A1F9187D03A74 /* Embed Frameworks */,
+				8F44E3A6797BC8944A7119CC /* Frameworks */,
+				ACCEA73573FCC0BD12A737B3 /* Dependencies */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pinemelon;
+			productName = Pinemelon;
+			productReference = E8AA7A66DC29A7502CA326ED /* Pinemelon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A49E76B3615B3D3F0B52A569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Pinemelon Inc.";
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 84F0282F005A121B7DB1BED1 /* Build configuration list for PBXProject "Pinemelon" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7786CB7DEADE6A299FAD5484;
+			productRefGroup = A522AC4BA784F3667B981C15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E69A448F6E0793EAAEBD0E5 /* Pinemelon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7A2A58B5684CFC3751FAAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA0CDD59210AB1D854D7332 /* Assets.xcassets in Resources */,
+				99F959311A8C7AEC9CCBFF7E /* LaunchScreen.storyboard in Resources */,
+				4BBAA46F6572191FC76676E4 /* Main.storyboard in Resources */,
+				683F2418F427AC17F0C6B1CA /* MelonKitResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		700B614D4CEEF624BA284716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D8D9609F7DC3C3DB73C114 /* Assets+Pinemelon.swift in Sources */,
+				79C2B33225957DF6398992FA /* Bundle+Pinemelon.swift in Sources */,
+				5E7D440710B97F3ECFA4F148 /* AppDelegate.swift in Sources */,
+				DC10ECCFC1704616699A60B8 /* SceneDelegate.swift in Sources */,
+				D1BFA95AE0B917C82145EC1D /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66D3239F2C9DE173B4B2D7BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF49F6981CB2F204C377FD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9D6713A5F82EA80DF779D959 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39E8EBC146F0107FFAED242E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82B3F5B48E413194D020A53C /* Release(Staging) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_BUNDLE_IDENTIFIER = tuist.pinemelon.test.staging;
+				APP_BUNDLE_NAME = Pinemelon;
+				APP_DISPLAY_NAME = "Pinemelon Staging";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 1231244;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				OTHER_LDFLAGS = "-ObjC -weak_framework SwiftUI -weak_framework Combine -lc++ -lstdc++ -lz -weak_framework Accelerate $(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = tuist.pinemelon.test.staging;
+				PRODUCT_NAME = Pinemelon;
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc tuist.pinemelon.test.staging";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = STAGING;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.5.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release(Staging)";
+		};
+		BB730CEC2A76CAD4EA411B59 /* Release(Production) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_BUNDLE_IDENTIFIER = tuist.pinemelon.test.production;
+				APP_BUNDLE_NAME = Pinemelon;
+				APP_DISPLAY_NAME = Pinemelon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 1231244;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				OTHER_LDFLAGS = "-ObjC -weak_framework SwiftUI -weak_framework Combine -lc++ -lstdc++ -lz -weak_framework Accelerate $(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = tuist.pinemelon.test.production;
+				PRODUCT_NAME = Pinemelon;
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore tuist.pinemelon.test.production";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PRODUCTION;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.5.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release(Production)";
+		};
+		D693D09DD05F2F1CA15715FB /* Release(Production) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_BUNDLE_IDENTIFIER = tuist.pinemelon.test.production;
+				APP_BUNDLE_NAME = Pinemelon;
+				APP_DISPLAY_NAME = Pinemelon;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 1231244;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 2.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC -weak_framework SwiftUI -weak_framework Combine -lc++ -lstdc++ -lz -weak_framework Accelerate $(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = tuist.pinemelon.test.production;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore tuist.pinemelon.test.production";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PRODUCTION;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release(Production)";
+		};
+		DD2E8E39391FEA719FE14AB6 /* Debug(Production) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_BUNDLE_IDENTIFIER = tuist.pinemelon.test.production;
+				APP_BUNDLE_NAME = Pinemelon;
+				APP_DISPLAY_NAME = Pinemelon;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 1231244;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 2.0.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC -weak_framework SwiftUI -weak_framework Combine -lc++ -lstdc++ -lz -weak_framework Accelerate $(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = tuist.pinemelon.test.production;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development tuist.pinemelon.test.production";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PRODUCTION;
+			};
+			name = "Debug(Production)";
+		};
+		DF51B07CBF7A136B1287D775 /* Release(Staging) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_BUNDLE_IDENTIFIER = tuist.pinemelon.test.staging;
+				APP_BUNDLE_NAME = Pinemelon;
+				APP_DISPLAY_NAME = "Pinemelon Staging";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 1231244;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 2.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC -weak_framework SwiftUI -weak_framework Combine -lc++ -lstdc++ -lz -weak_framework Accelerate $(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = tuist.pinemelon.test.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc tuist.pinemelon.test.staging";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = STAGING;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release(Staging)";
+		};
+		E5C94774384922514FE25EAF /* Debug(Staging) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_BUNDLE_IDENTIFIER = tuist.pinemelon.test.staging;
+				APP_BUNDLE_NAME = Pinemelon;
+				APP_DISPLAY_NAME = "Pinemelon Staging";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 1231244;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 2.0.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC -weak_framework SwiftUI -weak_framework Combine -lc++ -lstdc++ -lz -weak_framework Accelerate $(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = tuist.pinemelon.test.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development tuist.pinemelon.test.staging";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = STAGING;
+			};
+			name = "Debug(Staging)";
+		};
+		EB06E18C0292FC2BC60F484B /* Debug(Production) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_BUNDLE_IDENTIFIER = tuist.pinemelon.test.production;
+				APP_BUNDLE_NAME = Pinemelon;
+				APP_DISPLAY_NAME = Pinemelon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 1231244;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				OTHER_LDFLAGS = "-ObjC -weak_framework SwiftUI -weak_framework Combine -lc++ -lstdc++ -lz -weak_framework Accelerate $(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = tuist.pinemelon.test.production;
+				PRODUCT_NAME = Pinemelon;
+				PROVISIONING_PROFILE_SPECIFIER = "match Development tuist.pinemelon.test.production";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PRODUCTION;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.5.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Debug(Production)";
+		};
+		ED1A05BB80EC2B6C3221EE7C /* Debug(Staging) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_BUNDLE_IDENTIFIER = tuist.pinemelon.test.staging;
+				APP_BUNDLE_NAME = Pinemelon;
+				APP_DISPLAY_NAME = "Pinemelon Staging";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 1231244;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				OTHER_LDFLAGS = "-ObjC -weak_framework SwiftUI -weak_framework Combine -lc++ -lstdc++ -lz -weak_framework Accelerate $(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = tuist.pinemelon.test.staging;
+				PRODUCT_NAME = Pinemelon;
+				PROVISIONING_PROFILE_SPECIFIER = "match Development tuist.pinemelon.test.staging";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = STAGING;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.5.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Debug(Staging)";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50E96BC46BEC83E72CDA6E71 /* Build configuration list for PBXNativeTarget "Pinemelon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB06E18C0292FC2BC60F484B /* Debug(Production) */,
+				ED1A05BB80EC2B6C3221EE7C /* Debug(Staging) */,
+				BB730CEC2A76CAD4EA411B59 /* Release(Production) */,
+				82B3F5B48E413194D020A53C /* Release(Staging) */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release(Production)";
+		};
+		84F0282F005A121B7DB1BED1 /* Build configuration list for PBXProject "Pinemelon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2E8E39391FEA719FE14AB6 /* Debug(Production) */,
+				E5C94774384922514FE25EAF /* Debug(Staging) */,
+				D693D09DD05F2F1CA15715FB /* Release(Production) */,
+				DF51B07CBF7A136B1287D775 /* Release(Staging) */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release(Production)";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A49E76B3615B3D3F0B52A569 /* Project object */;
+}

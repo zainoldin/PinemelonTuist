@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3311B70ABE711007099A6B53 /* Bundle+MelonKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68470421E400797B140F949 /* Bundle+MelonKit.swift */; };
+		4E91F80DABBB2616F8BDBA4C /* PinemelonTuist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 677E637DDE23D9198D8954EF /* PinemelonTuist.xcdatamodeld */; };
+		EB8B78345F60B25D3DBEC549 /* PinemelonTuist.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 677E637DDE23D9198D8954EF /* PinemelonTuist.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89F0F8770C8F7DC3B146AB2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 767A54A7831CDF85002CB537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2978E91957DD60471B1BEB38;
+			remoteInfo = MelonKitResources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1DF8AADFBF3B1347E17F5738 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5738BA8C58EFBBB1791656F3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3AD2BDFFD1E0E91FEF986B7B /* MelonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MelonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED41E69A1DBE8EBA531C6BD /* MelonKitResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelonKitResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42AC20632E4E0454A54E08C /* MelonKitResources.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = MelonKitResources.plist; sourceTree = "<group>"; };
+		D68470421E400797B140F949 /* Bundle+MelonKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+MelonKit.swift"; sourceTree = "<group>"; };
+		DF219EDC5605C1E36AE7A996 /* PinemelonTuist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PinemelonTuist.xcdatamodel; sourceTree = "<group>"; };
+		E1399DEFCCB2BF52BD2E9E1F /* MelonKit.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = MelonKit.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B15BEABD2558E214F8E2D6A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4E61F8E66923E1BA7CE853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		161FC32EE2BA0FBB52424B53 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				E1399DEFCCB2BF52BD2E9E1F /* MelonKit.plist */,
+				D42AC20632E4E0454A54E08C /* MelonKitResources.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		16CFAC539E8B885250BFF216 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				677E637DDE23D9198D8954EF /* PinemelonTuist.xcdatamodeld */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		339F7CEDAF035A3C3E6165BE /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				9FDA1CED81B668E6D47539F2 /* Derived */,
+				16CFAC539E8B885250BFF216 /* Sources */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		48C04BE4C80C0AD0597C345C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AD2BDFFD1E0E91FEF986B7B /* MelonKit.framework */,
+				8ED41E69A1DBE8EBA531C6BD /* MelonKitResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		831CDA58F0F92C6C3C17B030 = {
+			isa = PBXGroup;
+			children = (
+				339F7CEDAF035A3C3E6165BE /* Project */,
+				F8D35AD36409D8C15F18D8D7 /* Frameworks */,
+				48C04BE4C80C0AD0597C345C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89AB0534D8B1F5452D1D33BF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D68470421E400797B140F949 /* Bundle+MelonKit.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9FDA1CED81B668E6D47539F2 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				161FC32EE2BA0FBB52424B53 /* InfoPlists */,
+				89AB0534D8B1F5452D1D33BF /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		F8D35AD36409D8C15F18D8D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2978E91957DD60471B1BEB38 /* MelonKitResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E68EDADB420E53A06E7D4D23 /* Build configuration list for PBXNativeTarget "MelonKitResources" */;
+			buildPhases = (
+				8E8DF8BB5F9C0F7CD06396A7 /* Resources */,
+				1DF8AADFBF3B1347E17F5738 /* Embed Frameworks */,
+				FD4E61F8E66923E1BA7CE853 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MelonKitResources;
+			productName = MelonKitResources;
+			productReference = 8ED41E69A1DBE8EBA531C6BD /* MelonKitResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DBF2EC5206131AB3C212180D /* MelonKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB451C67C2362F17C9870503 /* Build configuration list for PBXNativeTarget "MelonKit" */;
+			buildPhases = (
+				F5CB2F7F92C2E2D279BF0C88 /* Sources */,
+				6D36983F98B1420AFD3B7E08 /* Resources */,
+				5738BA8C58EFBBB1791656F3 /* Embed Frameworks */,
+				B15BEABD2558E214F8E2D6A6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82A13E931D90925F7A78D72A /* PBXTargetDependency */,
+			);
+			name = MelonKit;
+			productName = MelonKit;
+			productReference = 3AD2BDFFD1E0E91FEF986B7B /* MelonKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		767A54A7831CDF85002CB537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Pinemelon Inc.";
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = C99EF0E60AB2E55793F3B369 /* Build configuration list for PBXProject "MelonKit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 831CDA58F0F92C6C3C17B030;
+			productRefGroup = 48C04BE4C80C0AD0597C345C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBF2EC5206131AB3C212180D /* MelonKit */,
+				2978E91957DD60471B1BEB38 /* MelonKitResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D36983F98B1420AFD3B7E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8DF8BB5F9C0F7CD06396A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8B78345F60B25D3DBEC549 /* PinemelonTuist.xcdatamodeld in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5CB2F7F92C2E2D279BF0C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3311B70ABE711007099A6B53 /* Bundle+MelonKit.swift in Sources */,
+				4E91F80DABBB2616F8BDBA4C /* PinemelonTuist.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82A13E931D90925F7A78D72A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MelonKitResources;
+			target = 2978E91957DD60471B1BEB38 /* MelonKitResources */;
+			targetProxy = 89F0F8770C8F7DC3B146AB2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13AFA6A43D74AC1FB7EBCC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Derived/InfoPlists/MelonKitResources.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuist.melonKit.test.resources;
+				PRODUCT_NAME = MelonKitResources;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.5.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3FA53A0F5F68BF30A98F9CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Derived/InfoPlists/MelonKit.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = tuist.melonKit.test;
+				PRODUCT_NAME = MelonKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.5.2;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C7E2118F2B5DA2E00B7DFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Derived/InfoPlists/MelonKit.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = tuist.melonKit.test;
+				PRODUCT_NAME = MelonKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.5.2;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D85924FC621DF66C7C205115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB6AFB821D00FE11861E817D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E224C281B693D131C2C08589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Derived/InfoPlists/MelonKitResources.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuist.melonKit.test.resources;
+				PRODUCT_NAME = MelonKitResources;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.5.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C99EF0E60AB2E55793F3B369 /* Build configuration list for PBXProject "MelonKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85924FC621DF66C7C205115 /* Debug */,
+				DB6AFB821D00FE11861E817D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E68EDADB420E53A06E7D4D23 /* Build configuration list for PBXNativeTarget "MelonKitResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AFA6A43D74AC1FB7EBCC30 /* Debug */,
+				E224C281B693D131C2C08589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB451C67C2362F17C9870503 /* Build configuration list for PBXNativeTarget "MelonKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C7E2118F2B5DA2E00B7DFC1 /* Debug */,
+				3FA53A0F5F68BF30A98F9CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		677E637DDE23D9198D8954EF /* PinemelonTuist.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF219EDC5605C1E36AE7A996 /* PinemelonTuist.xcdatamodel */,
+			);
+			currentVersion = DF219EDC5605C1E36AE7A996 /* PinemelonTuist.xcdatamodel */;
+			path = PinemelonTuist.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 767A54A7831CDF85002CB537 /* Project object */;
+}

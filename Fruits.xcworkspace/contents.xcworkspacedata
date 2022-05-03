@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Fruits"
+      name = "Fruits">
+      <FileRef
+         location = "group:Arbuz/Arbuz.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:MelonKit/MelonKit.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Pinemelon/Pinemelon.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>

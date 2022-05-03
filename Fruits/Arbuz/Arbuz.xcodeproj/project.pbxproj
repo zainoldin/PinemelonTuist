@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EEBE621CFBBDFB6B37A4C10 /* MelonKitResources.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 3CCD93D78E096F10C56A26C5 /* MelonKitResources.bundle */; platformFilter = ios; };
+		0EF07076581A190EB317E54B /* MelonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F17997612D14F3F2A48CB9 /* MelonKit.framework */; platformFilter = ios; };
+		25470AC452987B2A2D3FDDDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511C3C505D874F7AC292177F /* Main.storyboard */; };
+		4392B1CCF267AEF6FF6FD5A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB6C52575F3B4994693403C /* ViewController.swift */; };
+		69CEA8BAE3A10DC23F578E8B /* Bundle+Arbuz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07364F3CECB9DBB272E9272 /* Bundle+Arbuz.swift */; };
+		AAF6785A568AB08F34698583 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ACF6B75C9B4ABEBC9CD59D /* SceneDelegate.swift */; };
+		B479CB81A64976A7AF718D56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E85AF015953689991152F0 /* Assets.xcassets */; };
+		B6C645EB88519D464D35B341 /* Assets+Arbuz.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6962287FD7A61500C746990 /* Assets+Arbuz.swift */; };
+		ED2E04194867B4CDC837A9FC /* MelonKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD93D78E096F10C56A26C5 /* MelonKitResources.bundle */; };
+		EDB886F6CBC5797E8EA63D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B7F43E6F67906F2C832F62 /* AppDelegate.swift */; };
+		F38A8229AC9CADA0DE0F0600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 829AE07FB8E2BEE113310BA5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3BCC8C461956FEC0DA89C53B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A18784CC1D3D926D1D8C40 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				0EEBE621CFBBDFB6B37A4C10 /* MelonKitResources.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05F17997612D14F3F2A48CB9 /* MelonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MelonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CCD93D78E096F10C56A26C5 /* MelonKitResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelonKitResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B7F43E6F67906F2C832F62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73EF8D0AE8D366506F6533D8 /* Arbuz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arbuz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92ACF6B75C9B4ABEBC9CD59D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9AB6C52575F3B4994693403C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D8F24546D49AF03C72AEBDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8E85AF015953689991152F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6962287FD7A61500C746990 /* Assets+Arbuz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assets+Arbuz.swift"; sourceTree = "<group>"; };
+		E19C95E129A942090B624AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F07364F3CECB9DBB272E9272 /* Bundle+Arbuz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Arbuz.swift"; sourceTree = "<group>"; };
+		F8074CBB30D9E9B6AA82131F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A75C34955A185B1705AEA468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF07076581A190EB317E54B /* MelonKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D14F37BFC849F27BE4B6161 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		132F945D3C80469C4FFC11E4 = {
+			isa = PBXGroup;
+			children = (
+				39E403CCF950B342EC565895 /* Project */,
+				0D14F37BFC849F27BE4B6161 /* Frameworks */,
+				F6D0CE3C6E4A329D5D8630F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35C45690A54AA7C815C69C25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				829AE07FB8E2BEE113310BA5 /* LaunchScreen.storyboard */,
+				511C3C505D874F7AC292177F /* Main.storyboard */,
+				A8E85AF015953689991152F0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		39E403CCF950B342EC565895 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				51BDE440D405827621A2FC09 /* Derived */,
+				35C45690A54AA7C815C69C25 /* Resources */,
+				A5E7D3A113803801D030BF09 /* Sources */,
+				E19C95E129A942090B624AE2 /* Info.plist */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		51BDE440D405827621A2FC09 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				AAAFB0838D6CEE00F5A81064 /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		A5E7D3A113803801D030BF09 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				53B7F43E6F67906F2C832F62 /* AppDelegate.swift */,
+				92ACF6B75C9B4ABEBC9CD59D /* SceneDelegate.swift */,
+				9AB6C52575F3B4994693403C /* ViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		AAAFB0838D6CEE00F5A81064 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B6962287FD7A61500C746990 /* Assets+Arbuz.swift */,
+				F07364F3CECB9DBB272E9272 /* Bundle+Arbuz.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F6D0CE3C6E4A329D5D8630F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73EF8D0AE8D366506F6533D8 /* Arbuz.app */,
+				05F17997612D14F3F2A48CB9 /* MelonKit.framework */,
+				3CCD93D78E096F10C56A26C5 /* MelonKitResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9BB5AEFC18EB63BDC46FB13 /* Arbuz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0D9A68A911FDCA6A85A7B37 /* Build configuration list for PBXNativeTarget "Arbuz" */;
+			buildPhases = (
+				2511C1C1A9B63C719BC5DB4D /* Sources */,
+				5C3D8BCAAE78A87AC4271AED /* Resources */,
+				3BCC8C461956FEC0DA89C53B /* Embed Frameworks */,
+				A75C34955A185B1705AEA468 /* Frameworks */,
+				49A18784CC1D3D926D1D8C40 /* Dependencies */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arbuz;
+			productName = Arbuz;
+			productReference = 73EF8D0AE8D366506F6533D8 /* Arbuz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D18729C257D16BA1A171693 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Arbuz Group TOO";
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = C5CBB3BC30967EBCA5C77BAE /* Build configuration list for PBXProject "Arbuz" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 132F945D3C80469C4FFC11E4;
+			productRefGroup = F6D0CE3C6E4A329D5D8630F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9BB5AEFC18EB63BDC46FB13 /* Arbuz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C3D8BCAAE78A87AC4271AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B479CB81A64976A7AF718D56 /* Assets.xcassets in Resources */,
+				F38A8229AC9CADA0DE0F0600 /* LaunchScreen.storyboard in Resources */,
+				25470AC452987B2A2D3FDDDE /* Main.storyboard in Resources */,
+				ED2E04194867B4CDC837A9FC /* MelonKitResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2511C1C1A9B63C719BC5DB4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C645EB88519D464D35B341 /* Assets+Arbuz.swift in Sources */,
+				69CEA8BAE3A10DC23F578E8B /* Bundle+Arbuz.swift in Sources */,
+				EDB886F6CBC5797E8EA63D77 /* AppDelegate.swift in Sources */,
+				AAF6785A568AB08F34698583 /* SceneDelegate.swift in Sources */,
+				4392B1CCF267AEF6FF6FD5A2 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		511C3C505D874F7AC292177F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8074CBB30D9E9B6AA82131F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		829AE07FB8E2BEE113310BA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D8F24546D49AF03C72AEBDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FFDED62DCA3F682F3A91282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840FC25B0BD5CB01E960F8E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E38131C6F4D86F20FB73EED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tuist.arbuz.test.production;
+				PRODUCT_NAME = Arbuz;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.5.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E8FF5B5181828E7EDC8D7928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tuist.arbuz.test.production;
+				PRODUCT_NAME = Arbuz;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.5.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5CBB3BC30967EBCA5C77BAE /* Build configuration list for PBXProject "Arbuz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840FC25B0BD5CB01E960F8E2 /* Debug */,
+				7FFDED62DCA3F682F3A91282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0D9A68A911FDCA6A85A7B37 /* Build configuration list for PBXNativeTarget "Arbuz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8FF5B5181828E7EDC8D7928 /* Debug */,
+				E38131C6F4D86F20FB73EED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D18729C257D16BA1A171693 /* Project object */;
+}
