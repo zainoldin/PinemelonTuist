@@ -17,63 +17,22 @@
                BlueprintIdentifier = "C9BB5AEFC18EB63BDC46FB13"
                BuildableName = "Arbuz.app"
                BlueprintName = "Arbuz"
-               ReferencedContainer = "container:Fruits/Arbuz/Arbuz.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DBF2EC5206131AB3C212180D"
-               BuildableName = "MelonKit.framework"
-               BlueprintName = "MelonKit"
-               ReferencedContainer = "container:Fruits/MelonKit/MelonKit.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2978E91957DD60471B1BEB38"
-               BuildableName = "MelonKitResources.bundle"
-               BlueprintName = "MelonKitResources"
-               ReferencedContainer = "container:Fruits/MelonKit/MelonKit.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8E69A448F6E0793EAAEBD0E5"
-               BuildableName = "Pinemelon.app"
-               BlueprintName = "Pinemelon"
-               ReferencedContainer = "container:Fruits/Pinemelon/Pinemelon.xcodeproj">
+               ReferencedContainer = "container:Arbuz.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug(Production)"
+      buildConfiguration = "Debug(Staging)"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      disableMainThreadChecker = "YES">
       <Testables>
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug(Production)"
+      buildConfiguration = "Debug(Staging)"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -89,12 +48,12 @@
             BlueprintIdentifier = "C9BB5AEFC18EB63BDC46FB13"
             BuildableName = "Arbuz.app"
             BlueprintName = "Arbuz"
-            ReferencedContainer = "container:Fruits/Arbuz/Arbuz.xcodeproj">
+            ReferencedContainer = "container:Arbuz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Release(Production)"
+      buildConfiguration = "Release(Staging)"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -106,15 +65,15 @@
             BlueprintIdentifier = "C9BB5AEFC18EB63BDC46FB13"
             BuildableName = "Arbuz.app"
             BlueprintName = "Arbuz"
-            ReferencedContainer = "container:Fruits/Arbuz/Arbuz.xcodeproj">
+            ReferencedContainer = "container:Arbuz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Debug(Production)">
+      buildConfiguration = "Debug(Staging)">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release(Production)"
+      buildConfiguration = "Release(Staging)"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

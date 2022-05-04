@@ -172,7 +172,7 @@
 		A49E76B3615B3D3F0B52A569 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = "Pinemelon Inc.";
+				ORGANIZATIONNAME = "Pinemelon.com Inc.";
 				TargetAttributes = {
 				};
 			};
@@ -252,7 +252,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 1231244;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 123456TEST;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -260,7 +261,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = "-ObjC -weak_framework SwiftUI -weak_framework Combine -lc++ -lstdc++ -lz -weak_framework Accelerate $(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = tuist.pinemelon.test.staging;
 				PRODUCT_NAME = Pinemelon;
@@ -284,7 +285,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 1231244;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 123456TEST;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -292,7 +294,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = "-ObjC -weak_framework SwiftUI -weak_framework Combine -lc++ -lstdc++ -lz -weak_framework Accelerate $(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = tuist.pinemelon.test.production;
 				PRODUCT_NAME = Pinemelon;
@@ -347,8 +349,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 1231244;
+				DEVELOPMENT_TEAM = 123456TEST;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -359,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-ObjC -weak_framework SwiftUI -weak_framework Combine -lc++ -lstdc++ -lz -weak_framework Accelerate $(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = tuist.pinemelon.test.production;
@@ -410,8 +413,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 1231244;
+				DEVELOPMENT_TEAM = 123456TEST;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -428,7 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC -weak_framework SwiftUI -weak_framework Combine -lc++ -lstdc++ -lz -weak_framework Accelerate $(inherited)";
@@ -479,8 +483,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 1231244;
+				DEVELOPMENT_TEAM = 123456TEST;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -491,7 +496,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-ObjC -weak_framework SwiftUI -weak_framework Combine -lc++ -lstdc++ -lz -weak_framework Accelerate $(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = tuist.pinemelon.test.staging;
@@ -542,8 +547,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 1231244;
+				DEVELOPMENT_TEAM = 123456TEST;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -560,7 +566,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC -weak_framework SwiftUI -weak_framework Combine -lc++ -lstdc++ -lz -weak_framework Accelerate $(inherited)";
@@ -580,7 +586,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 1231244;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 123456TEST;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -588,7 +595,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = "-ObjC -weak_framework SwiftUI -weak_framework Combine -lc++ -lstdc++ -lz -weak_framework Accelerate $(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = tuist.pinemelon.test.production;
 				PRODUCT_NAME = Pinemelon;
@@ -612,7 +619,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 1231244;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 123456TEST;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -620,7 +628,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = "-ObjC -weak_framework SwiftUI -weak_framework Combine -lc++ -lstdc++ -lz -weak_framework Accelerate $(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = tuist.pinemelon.test.staging;
 				PRODUCT_NAME = Pinemelon;
